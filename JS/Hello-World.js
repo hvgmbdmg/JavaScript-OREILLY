@@ -1,5 +1,7 @@
 function sayHi() {
-    alert("Hello World!");
+    alert("My name is Alert. Hello World!");
+    console.log("I am console.");
+    //print("AA");
 }
 
 //ar sayhi = sayHi();
