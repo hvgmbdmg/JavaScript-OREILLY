@@ -17,3 +17,21 @@ function mathTest() {
     document.write("ceil(1.001) = " + Math.ceil(1.001) + "<br>");
     document.write("floor(1.999) = " + Math.floor(1.999) + "</p>");
 }
+
+function precisionTest(){
+    document.write("<p>0.3-0.2 = 0.1? " + ((0.3-0.2) == 0.1) + "<br>");
+    document.write("0.2-0.1 = 0.1? " + ((0.2-0.1) == 0.1) + "</p>");
+}
+
+function dateTest() {
+    var now = new Date();
+    document.write("<p>Now is: " + now.toString() + "<br>");
+    document.write("Date is: " + now.toLocaleDateString() + "<br>");
+    document.write("Time is: " + now.toLocaleTimeString() + "</p>");
+}
+
+function escapeSeqTest(){
+    document.write("First Line\nSecond Line\nThird Line\n");
+    document.write("\tTab and other test: \t\"\t\'\n");
+
+}
